@@ -120,6 +120,20 @@ const scoringRules = {
             cardinality: 3,
             code: 'fai'
         }
+    ],
+    'FAI_S7_triangle': [
+        {
+            name: 'FAI Section 7: Free distance around a triangular course',
+            multiplier: 1,
+            bound: scoring.boundTriangle,
+            score: scoring.scoreTriangle,
+            minSide: 0.28,
+            closingDistance: scoring.closingWithLimit,
+            closingDistanceFixed: 0.8,
+            rounding: round2,
+            cardinality: 3,
+            code: 'fai'
+        }
     ]
 };
 
