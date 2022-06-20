@@ -123,7 +123,7 @@ const scoringRules = {
     ],
     'FAI_S7_triangle': [
         {
-            name: 'FAI Section 7: Free distance around a triangular course',
+            name: 'FAI Section 7D: Free distance around a triangular course',
             multiplier: 1,
             bound: scoring.boundTriangle,
             score: scoring.scoreTriangle,
